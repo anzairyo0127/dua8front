@@ -1,0 +1,25 @@
+@import "./base.scss";
+
+.calendar {
+  tr {
+    .holidayColor {
+      color: $colorHoliday;
+    };
+    td {
+      text-align: center;
+      vertical-align: top;
+    };
+    td.selected {
+      border: 1px solid black;
+      color: $colorCHSelected;
+      background-color: $colorBGSelected;
+    };
+  }
+};
+
+.haveProgram {
+  &::after {
+    content: "●";
+    display: block;
+  };
+};

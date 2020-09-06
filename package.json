@@ -1,0 +1,48 @@
+{
+  "name": "horror",
+  "version": "0.0.1",
+  "description": "開発を行うために色々書いたり、あるいはパッケージとしての使い方を書くところです。",
+  "main": "dist/scripts/main.js",
+  "scripts": {
+    "build": "npx gulp scss pug webpack",
+    "scss": "npx gulp scss",
+    "pug": "npx gulp pug",
+    "webpack": "npx gulp webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzairyo0127/horror.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anzairyo0127/horror/issues"
+  },
+  "homepage": "https://github.com/anzairyo0127/horror#readme",
+  "dependencies": {
+    "devtools-detect": "^3.0.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-sass": "^4.0.0",
+    "babel-loader": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-stream": "^5.2.1"
+  },
+  "browserslist": [
+    "defaults",
+    "maintained node versions"
+  ]
+}
